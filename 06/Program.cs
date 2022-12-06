@@ -13,7 +13,7 @@ var line = input.First();
 Func<string, int, int, bool> solution = (line, start, length) =>
 {
     var chs = line.Skip(start - (length - 1)).Take(length);
-    return !chs.Where((c, i) => chs.Where((c1, i1) => i1 != i && c1 == c).Any()).Any();
+    return chs.Count() == chs.Distinct().Count();
 };
 
 var idx = 3;
