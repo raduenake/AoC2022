@@ -1,12 +1,30 @@
 {
   "folders": [
-    { "path": ".", "name": "." },
-    { "path": "01" },
-    { "path": "02" },
-    { "path": "03" },
-    { "path": "04" },
-    { "path": "05" },
-    { "path": "06" }
+    {
+      "path": ".",
+      "name": "."
+    },
+    {
+      "path": "01"
+    },
+    {
+      "path": "02"
+    },
+    {
+      "path": "03"
+    },
+    {
+      "path": "04"
+    },
+    {
+      "path": "05"
+    },
+    {
+      "path": "06"
+    },
+    {
+      "path": "07"
+    }
   ],
   "settings": {
     "workbench.colorCustomizations": {
