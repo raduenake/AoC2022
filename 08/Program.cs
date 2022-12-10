@@ -3,7 +3,7 @@ using System.Collections.Immutable;
 
 var file = System.IO.File.OpenText("input.txt");
 var input = file.ReadToEnd()
-    .Split("\n")
+    .Split("\r\n")
     .Where(l => !string.IsNullOrEmpty(l))
     .Select(l => l.Select(c => int.Parse("" + c)).ToImmutableArray())
     .ToImmutableArray();

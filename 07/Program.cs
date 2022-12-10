@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 var file = System.IO.File.OpenText("input.txt");
 var input = file.ReadToEnd()
-    .Split("\n")
+    .Split("\r\n")
     .Where(l => !string.IsNullOrEmpty(l))
     .ToImmutableArray();
 
