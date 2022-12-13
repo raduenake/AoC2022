@@ -69,6 +69,5 @@ Func<IEnumerable<(string, int)>, int, int> solve = (ops, ropeLength) =>
     return tailVisited.Count();
 };
 
-
 Console.WriteLine($"Part 1: {solve(input, 2)}");
 Console.WriteLine($"Part 2: {solve(input, 10)}");
